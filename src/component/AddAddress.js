@@ -45,7 +45,7 @@ const AddAddress = ({method,onTypeChange}) => {
             </div>
 
             <div>
-        <button className='button'>{`Set Address`}</button>
+        <button >{`Set Address`}</button>
         </div>
 
 
