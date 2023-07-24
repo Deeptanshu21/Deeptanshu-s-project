@@ -1,0 +1,128 @@
+.header{
+    background-color: navy;
+    text-align: center;
+    padding: 30px;
+    color: cornsilk;
+
+}
+
+
+.address-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+}
+.address-box{
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #bbb3b3;
+    border-radius: 5px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+
+}
+
+.details{
+    text-align: left;
+}
+
+
+.button{
+    padding: 10px;
+    width: 100px;
+    height: 45px;
+    align-self: end;
+    justify-self: end;
+    border: 0;
+    font-size: large;
+
+}
+
+.new-address{
+    color: blue;
+    align-self: end;
+}
+
+
+.h2-heading{
+    margin: 0px;
+    align-self: baseline;
+}
+
+.heading-bar{
+    padding: 10px;
+    background: #f0f0f0;
+    text-align: left;
+    font-weight: 600;
+}
+
+.payment-details-heading{
+    margin-top: 20px;
+    text-align: left;
+    color: #867979;
+}
+
+.input{
+    height: 40px;
+}
+
+.payment-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.flex-row{
+    display: flex;
+}
+
+.row-10{
+    column-gap: 20px;
+}
+
+.row-40{
+    column-gap: 40px;
+}
+
+.payment-wrapper{
+    text-align: left;
+}
+
+.radio-box{
+    margin: 20px 0 20px 0;
+}
+
+.order-segment{
+    display: flex;
+    padding: 0 45px;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.order-card{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 30px;
+    
+}
+
+.inline-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-charges-box{
+    background: #fbfbfb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.total-payment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid #dbdbdb
+}
